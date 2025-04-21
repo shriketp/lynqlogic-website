@@ -11,12 +11,12 @@ const Footer = () => {
             Your trusted partner for software, design, and cloud innovation.
           </p>
           <div className="flex gap-4 mt-4">
-            <a href="#" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/company/lynqlogic-solutions/" aria-label="LinkedIn">
               <FaLinkedin className="text-xl hover:text-blue-400 transition" />
             </a>
-            <a href="#" aria-label="Instagram">
+            {/* <a href="#" aria-label="Instagram">
               <FaInstagram className="text-xl hover:text-pink-400 transition" />
-            </a>
+            </a> */}
           </div>
         </div>
 

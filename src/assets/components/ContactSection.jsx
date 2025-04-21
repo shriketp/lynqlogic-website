@@ -11,14 +11,19 @@ const ContactSection = () => {
             We'd love to hear from you! Whether you have a question about Services, pricing,
             or anything else — our team is ready to answer all your questions.
           </p>
-          
+
           <div className="space-y-6">
             {/* Phone */}
             <div className="flex items-center gap-4">
               <FaPhoneAlt className="text-blue-600 text-2xl" />
               <div>
                 <h4 className="text-lg font-semibold">Phone</h4>
-                <p className="text-gray-700">+91 94084 25165</p>
+                {/* <a className="text-gray-700">+91 94084 25165</a> */}
+                <p className="text-gray-700">Phone:{" "}
+                  <a href="tel:+919408425165" className="hover:text-blue-400">
+                    +91 9408425165
+                  </a>
+                </p>
               </div>
             </div>
 
@@ -27,7 +32,13 @@ const ContactSection = () => {
               <FaEnvelope className="text-red-500 text-2xl" />
               <div>
                 <h4 className="text-lg font-semibold">Email</h4>
-                <p className="text-gray-700">lynqlogic@gmail.com</p>
+                {/* <p className="text-gray-700">lynqlogic@gmail.com</p> */}
+                <p className="text-gray-700">
+                  Email:{" "}
+                  <a href="mailto:lynqlogic@gmail.com" className="hover:text-blue-400">
+                    lynqlogic@gmail.com
+                  </a>
+                </p>
               </div>
             </div>
 
