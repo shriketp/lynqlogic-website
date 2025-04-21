@@ -8,10 +8,10 @@ const ContactSection = () => {
         <div>
           <h2 className="text-3xl font-normal text-black mb-6">Get in Touch</h2>
           <p className="text-gray-700 mb-8 text-lg">
-            We'd love to hear from you! Whether you have a question about services, pricing,
+            We'd love to hear from you! Whether you have a question about Services, pricing,
             or anything else — our team is ready to answer all your questions.
           </p>
-
+          
           <div className="space-y-6">
             {/* Phone */}
             <div className="flex items-center gap-4">
